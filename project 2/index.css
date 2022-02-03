@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  
+}
+
+header {
+  width: 200%;
+  height: 100vh;
+  background: url("wallpapertip_lamborghini-wallpaper_1027913.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+}
+
+nav{
+    width: 50%;
+    height: 80px;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 80px;
+    display: flex;
+}
+
+.logo{
+    font-family: sans-serif;
+    font-size: 2.5em;
+    display: flex;
+}
+.logo span{
+    color: #e74c3c;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.menu a:first-child{
+    color: #e74c3c;
+}
+.menu a:hover{
+    color: #e74c3c;
+}
+.icon i{
+    font-size: 20px;
+}
+.icon i:hover{
+    color:#e74c3c;
+}
+.icon a{
+    text-decoration: none;
+    background: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+}
